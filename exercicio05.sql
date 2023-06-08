@@ -1,0 +1,1 @@
+ALTER TABLE tarefa ADD COLUMN projeto_id INT NOT NULL REFERENCES projeto(id);
